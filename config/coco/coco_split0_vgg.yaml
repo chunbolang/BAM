@@ -1,0 +1,83 @@
+Data:
+  data_root: ../data/MSCOCO2014
+  base_data_root: ../data/base_annotation/coco/
+  train_list: ./lists/coco/train.txt
+  val_list: ./lists/coco/val.txt
+  classes: 2
+
+
+Train:
+  # Aug
+  train_h: 641
+  train_w: 641
+  val_size: 641
+  scale_min: 0.8  # minimum random scale
+  scale_max: 1.25 # maximum random scale
+  rotate_min: -10  # minimum random rotate
+  rotate_max: 10  # maximum random rotate
+  ignore_label: 255
+  padding_label: 255
+  # Dataset & Mode
+  split: 0
+  shot: 1
+  data_set: 'coco'
+  use_split_coco: True # True means FWB setting
+  # Optimizer
+  batch_size: 2 # batch size for training (bs8 for 1GPU)
+  base_lr: 0.005
+  epochs: 50
+  start_epoch: 0
+  stop_interval: 75 # stop when the best result is not updated for "stop_interval" epochs
+  index_split: -1 # index for determining the params group with 10x learning rate
+  power: 0.9 # 0 means no decay
+  momentum: 0.9
+  weight_decay: 0.0001
+  warmup: False
+  # Viz & Save & Resume
+  print_freq: 10
+  save_freq: 5
+  resume: # path to latest checkpoint (default: none, such as epoch_10.pth)  
+  # Validate
+  evaluate: True
+  SubEpoch_val: True # val at the half epoch
+  fix_random_seed_val: True
+  batch_size_val: 1
+  resized_val: True
+  ori_resize: True  # use original label for evaluation
+  # Else
+  workers: 8
+  fix_bn: True
+  manual_seed: 321
+  seed_deterministic: False
+  zoom_factor: 8  # zoom factor for final prediction during training, be in [1, 2, 4, 8]
+  
+Method:
+  layers: 50
+  vgg: True
+  aux_weight1: 1.0
+  aux_weight2: 1.0
+  low_fea: 'layer2'  # low_fea for computing the Gram matrix
+  kshot_trans_dim: 2 # K-shot dimensionality reduction
+  merge: 'final'     # fusion scheme for GFSS ('base' Eq(S1) | 'final' Eq(18) )
+  merge_tau: 0.9     # fusion threshold tau
+
+Test_Finetune:
+  weight: # load weight for fine-tuning or testing (such as train5_epoch_38.5_0.4702.pth)
+  ann_type: 'mask' # mask/bbox/
+
+
+
+## deprecated multi-processing training
+# Distributed:
+#   dist_url: tcp://127.0.0.1:6789
+#   dist_backend: 'nccl'
+#   multiprocessing_distributed: False
+#   world_size: 1
+#   rank: 0
+#   use_apex: False
+#   opt_level: 'O0'
+#   keep_batchnorm_fp32:
+#   loss_scale:
+
+
+
