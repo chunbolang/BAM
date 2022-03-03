@@ -20,11 +20,11 @@ This repo contains the code for our CVPR 2022 paper "*Learning What Not to Segme
 
 - COCO-20<sup>i</sup>:  [COCO2014](https://cocodataset.org/#download)
 
-   Download the [data](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EZboVV33hpZCo670labrD0kBJfqK4bEJHjYFF1ikubFU5A?e=ytsyMx) lists (.txt files) and put them into the `BAM/lists` directory. 
+   Download the [data](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EZboVV33hpZCo670labrD0kBJfqK4bEJHjYFF1ikubFU5A?e=ytsyMx) lists (.txt files) and put them into the `lists` directory. 
 
 ### Models
 
-- Download the pre-trained backbones from [here](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EflpnBbWaftEum485cNq8v8BMakzrpvbGfdHWo97FDHYtw?e=m9v2UK) and put them into the `BAM/initmodel` directory. 
+- Download the pre-trained backbones from [here](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EflpnBbWaftEum485cNq8v8BMakzrpvbGfdHWo97FDHYtw?e=m9v2UK) and put them into the `initmodel` directory. 
 - Download our trained base learners from [OneDrive](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/ETERT3xe5ndEpDhStts7JmcBFuE3XEqHYKlYdO-Uu96jLg?e=gJLkiT) and put them under `initmodel/PSPNet`. 
 - We provide 4 trained BAM [models](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EWjRvUVQYttHkjgg0DyHi4YBPDzt62zix1hPIxdRbuCU7g?e=I2ypgQ) for performance evaluation: 2 VGG16 based models for PASCAL-5<sup>0</sup> and 2 ResNet50 based models for COCO-20<sup>0</sup>.
 
