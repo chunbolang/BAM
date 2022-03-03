@@ -1,6 +1,6 @@
 # Learning What Not to Segment: A New Perspective on Few-Shot Segmentation
 
-This repo contains the code for our CVPR 2022 paper "*Learning What Not to Segment: A New Perspective on Few-Shot Segmentation*" by Chunbo Lang, Gong Cheng, Binfei Tu, and Junwei Han.
+This repo contains the code for our CVPR 2022 paper "*Learning What Not to Segment: A New Perspective on Few-Shot Segmentation*" by Chunbo Lang, Gong Cheng, Binfei Tu, and Junwei Han. 
 
 <p align="middle">
   <img src="figure/flowchart.jpg">
@@ -70,21 +70,21 @@ Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](htt
 
 1. ##### PASCAL-5<sup>i</sup>
 
-   | Backbone | Method     | 1-shot          | 5-shot          |
-   | -------- | ---------- | --------------- | --------------- |
-   | VGG16    | HSNet      | 59.70           | 64.10           |
-   |          | BAM (ours) | 64.41 ~(+4.71)~ | 68.76 ~(+4.66)~ |
-   | ResNet50 | HSNet      | 64.00           | 69.50           |
-   |          | BAM (ours) | 67.81 ~(+3.81)~ | 70.91 ~(+1.41)~ |
+   | Backbone | Method     | 1-shot                   | 5-shot                   |
+   | -------- | ---------- | ------------------------ | ------------------------ |
+   | VGG16    | HSNet      | 59.70                    | 64.10                    |
+   |          | BAM (ours) | 64.41 <sub>(+4.71)</sub> | 68.76 <sub>(+4.66)</sub> |
+   | ResNet50 | HSNet      | 64.00                    | 69.50                    |
+   |          | BAM (ours) | 67.81 <sub>(+3.81)</sub> | 70.91 <sub>(+1.41)</sub> |
 
 2. ##### COCO-20<sup>i</sup>
 
-   | Backbone | Method     | 1-shot          | 5-shot          |
-   | -------- | ---------- | --------------- | --------------- |
-   | VGG16    | PFENet     | 36.30           | 40.40           |
-   |          | BAM (ours) | 43.50 ~(+7.20)~ | 49.34 ~(+8.94)~ |
-   | ResNet50 | HSNet      | 39.20           | 46.90           |
-   |          | BAM (ours) | 46.23 ~(+7.03)~ | 51.16 ~(+4.26)~ |
+   | Backbone | Method     | 1-shot                   | 5-shot                   |
+   | -------- | ---------- | ------------------------ | ------------------------ |
+   | VGG16    | PFENet     | 36.30                    | 40.40                    |
+   |          | BAM (ours) | 43.50 <sub>(+7.20)</sub> | 49.34 <sub>(+8.94)</sub> |
+   | ResNet50 | HSNet      | 39.20                    | 46.90                    |
+   |          | BAM (ours) | 46.23 <sub>(+7.03)</sub> | 51.16 <sub>(+4.26)</sub> |
 
 ### Visualization
 
@@ -103,5 +103,16 @@ This repo is built based on [PFENet](https://github.com/dvlab-research/PFENet) a
 - [x] Multi-GPU training
 - [ ] FSS-1000 dataset
 
+### Bibtex
 
+Please consider citing our paper if the project helps your research. BibTeX reference is as follows:
+
+```
+@InProceedings{lang2022bam,
+    title={Learning What Not to Segment: A New Perspective on Few-Shot Segmentation},
+    author={Lang, Chunbo and Cheng, Gong and Tu, Binfei and Han, Junwei},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2022}
+}
+```
 
