@@ -94,7 +94,7 @@ Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](htt
 
 ### References
 
-This repo is built based on [PFENet](https://github.com/dvlab-research/PFENet) and [SemSeg](https://github.com/hszhao/semseg). Thanks for their great work!
+This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PFENet) and [SemSeg](https://github.com/hszhao/semseg). Thanks for their great work!
 
 ### To-Do List
 
