@@ -1,6 +1,6 @@
 # Learning What Not to Segment: A New Perspective on Few-Shot Segmentation
 
-This repo contains the code for our **CVPR 2022** paper "*Learning What Not to Segment: A New Perspective on Few-Shot Segmentation*" by Chunbo Lang, Gong Cheng, Binfei Tu, and Junwei Han. 
+This repo contains the code for our **CVPR 2022** [paper](http://arxiv.org/abs/2203.07615) "*Learning What Not to Segment: A New Perspective on Few-Shot Segmentation*" by Chunbo Lang, Gong Cheng, Binfei Tu, and Junwei Han. 
 
 <p align="middle">
   <img src="figure/flowchart.jpg">
