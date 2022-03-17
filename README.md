@@ -26,7 +26,7 @@ This repo contains the code for our **CVPR 2022** [paper](http://arxiv.org/abs/2
 
    Download the [data](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EZboVV33hpZCo670labrD0kBJfqK4bEJHjYFF1ikubFU5A?e=ytsyMx) lists (.txt files) and put them into the `BAM/lists` directory. 
 
-- Run `util/get_mulway_base_data.py` to generate base annotations for **stage1** below, or directly use the weights of base learner we provide.
+- Run `util/get_mulway_base_data.py` to generate base annotations for **stage1**, or directly use the weights we provide.
 
 ### Models
 
