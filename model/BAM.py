@@ -232,8 +232,7 @@ class OneModel(nn.Module):
             val1, idx1 = est_val_total.sort(1)
             val2, idx2 = idx1.sort(1)
             weight = self.kshot_rw(val1)
-            idx3 = idx1.gather(1, idx2)
-            weight = weight.gather(1, idx3)
+            weight = weight.gather(1, idx2)
             weight_soft = torch.softmax(weight, 1)
         else:
             weight_soft = torch.ones_like(est_val_total)
