@@ -111,7 +111,7 @@ This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PF
 
 ### Bibtex
 
-Please consider citing our paper if the project helps your research. BibTeX reference is as follows:
+If you find our work and this repository useful. Please consider giving a star :star: and citation.
 
 ```
 @InProceedings{lang2022bam,
