@@ -12,6 +12,14 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
   <img src="figure/flowchart.jpg">
 </p>
 
+## News :sparkles:
+
+**[Mar 21, 2022]**
+- BAM is accepted to **CVPR2022**.
+
+**[Mar 29, 2022]**
+- Our paper is selected for an <font color='red'> **oral** </font> presentation.
+
 ### Dependencies
 
 - Python 3.8
