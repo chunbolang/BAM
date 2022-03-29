@@ -113,7 +113,7 @@ This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PF
 
 If you find our work and this repository useful. Please consider giving a star :star: and citation.
 
-```
+```bibtex
 @InProceedings{lang2022bam,
     title={Learning What Not to Segment: A New Perspective on Few-Shot Segmentation},
     author={Lang, Chunbo and Cheng, Gong and Tu, Binfei and Han, Junwei},
