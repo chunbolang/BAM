@@ -120,7 +120,7 @@ Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](htt
 
 This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PFENet), [RePRI](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation), and [SemSeg](https://github.com/hszhao/semseg). Thanks for their great work!
 
-## Citation
+## BibTeX
 
 If you find our work and this repository useful. Please consider giving a star :star: and citation &#x1F4DA;.
 
