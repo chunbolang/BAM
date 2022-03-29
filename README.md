@@ -6,6 +6,8 @@
 
 This repo contains the code for our **CVPR 2022** [paper](http://arxiv.org/abs/2203.07615) "*Learning What Not to Segment: A New Perspective on Few-Shot Segmentation*" by Chunbo Lang, Gong Cheng, Binfei Tu, and Junwei Han. 
 
+> **Abstract:** *Recently few-shot segmentation (FSS) has been extensively developed. Most previous works strive to achieve generalization through the meta-learning framework derived from classification tasks; however, the trained models are biased towards the seen classes instead of being ideally class-agnostic, thus hindering the recognition of new concepts. This paper proposes a fresh and straightforward insight to alleviate the problem. Specifically, we apply an additional branch (base learner) to the conventional FSS model (meta learner) to explicitly identify the targets of base classes, i.e., the regions that do not need to be segmented. Then, the coarse results output by these two learners in parallel are adaptively integrated to yield precise segmentation prediction. Considering the sensitivity of meta learner, we further introduce an adjustment factor to estimate the scene differences between the input image pairs for facilitating the model ensemble forecasting. The substantial performance gains on PASCAL-5<sup>i</sup> and COCO-20<sup>i</sup> verify the effectiveness, and surprisingly, our versatile scheme sets a new state-of-the-art even with two plain learners. Moreover, in light of the unique nature of the proposed approach, we also extend it to a more realistic but challenging setting, i.e., generalized FSS, where the pixels of both base and novel classes are required to be determined.*
+
 <p align="middle">
   <img src="figure/flowchart.jpg">
 </p>
