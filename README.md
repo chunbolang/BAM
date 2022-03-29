@@ -12,9 +12,9 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
   <img src="figure/flowchart.jpg">
 </p>
 
-## News :sparkles:
+### :sparkles: News
 
-**[Mar 21, 2022]**
+**[Mar 2, 2022]**
 - BAM is accepted to **CVPR2022**.
 
 **[Mar 29, 2022]**
