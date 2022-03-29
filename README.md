@@ -12,7 +12,7 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
   <img src="figure/flowchart.jpg">
 </p>
 
-### :sparkles: News
+## :sparkles: News
 
 **[Mar 2, 2022]**
 - BAM is accepted to **CVPR2022**.
@@ -20,6 +20,7 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
 **[Mar 29, 2022]**
 - Our paper is selected for an <font color='red'> **oral** </font> presentation.
 
+## :sparkles: Usage
 ### Dependencies
 
 - Python 3.8
@@ -44,7 +45,7 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
 - Download our trained base learners from [OneDrive](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/ETERT3xe5ndEpDhStts7JmcBFuE3XEqHYKlYdO-Uu96jLg?e=gJLkiT) and put them under `initmodel/PSPNet`. 
 - We provide 4 trained BAM [models](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EWjRvUVQYttHkjgg0DyHi4YBPDzt62zix1hPIxdRbuCU7g?e=I2ypgQ) for performance evaluation: 2 VGG16 based models for PASCAL-5<sup>0</sup> and 2 ResNet50 based models for COCO-20<sup>0</sup>.
 
-### Usage
+### Scripts
 
 - Change configuration via the `.yaml` files in `BAM/config`, then run the `.sh` scripts for training and testing.
 
