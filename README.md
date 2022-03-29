@@ -20,7 +20,7 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
 **[Mar 29, 2022]**
 - Our paper is selected for an <font color='red'> **oral** </font> presentation.
 
-## :sparkles: Usage
+## &#x1F527; Usage
 ### Dependencies
 
 - Python 3.8
