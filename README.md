@@ -109,10 +109,6 @@ Performance comparison with the state-of-the-art approaches (*i.e.*, [HSNet](htt
     <img src="figure/visualization.jpg">
 </p>
 
-### References
-
-This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PFENet), [RePRI](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation), and [SemSeg](https://github.com/hszhao/semseg). Thanks for their great work!
-
 ### To-Do List
 
 - [x] Support different backbones
@@ -120,7 +116,11 @@ This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PF
 - [x] Multi-GPU training
 - [ ] FSS-1000 dataset
 
-### Bibtex
+## References
+
+This repo is mainly built based on [PFENet](https://github.com/dvlab-research/PFENet), [RePRI](https://github.com/mboudiaf/RePRI-for-Few-Shot-Segmentation), and [SemSeg](https://github.com/hszhao/semseg). Thanks for their great work!
+
+## Citation
 
 If you find our work and this repository useful. Please consider giving a star :star: and citation &#x1F4DA;.
 
