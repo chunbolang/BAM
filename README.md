@@ -35,7 +35,7 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
 
 - COCO-20<sup>i</sup>:  [COCO2014](https://cocodataset.org/#download)
 
-   Download the [data](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EZboVV33hpZCo670labrD0kBntbbO1wW0ZdWsnjOSgwIaw?e=67N7bI) lists (.txt files) and put them into the `BAM/lists` directory. 
+   Download the [data](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/ESvJvL7X86pNqK5LSaKwK0sByDLwNx0kh73PVJJ_m1vSCg?e=RBjfKp) lists (.txt files) and put them into the `BAM/lists` directory. 
 
 - Run `util/get_mulway_base_data.py` to generate base annotations for **stage1**, or directly use the trained weights.
 
