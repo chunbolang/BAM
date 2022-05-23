@@ -20,6 +20,9 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
 **[Mar 29, 2022]**
 - Our paper is selected for an <font color='red'> **oral** </font> presentation.
 
+**[May 23, 2022]**
+- We release all the trained **models** to facilitate validation.
+
 ## &#x1F527; Usage
 ### Dependencies
 
@@ -43,7 +46,7 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
 
 - Download the pre-trained backbones from [here](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EflpnBbWaftEum485cNq8v8BdSHiKvXLaX-dBBsbtdnCjg?e=WLcfhd) and put them into the `BAM/initmodel` directory. 
 - Download our trained base learners from [OneDrive](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/ETERT3xe5ndEpDhStts7JmcBlYDY_2G0hPVJUBtLLG-njg?e=MLzVIL) and put them under `initmodel/PSPNet`. 
-- We provide 4 trained BAM [models](https://mailnwpueducn-my.sharepoint.com/:u:/g/personal/langchunbo_mail_nwpu_edu_cn/EWjRvUVQYttHkjgg0DyHi4YBL5wN-bP3BUmKn7mFgIHsiQ?e=cgewHm) for performance evaluation: 2 VGG16 based models for PASCAL-5<sup>0</sup> and 2 ResNet50 based models for COCO-20<sup>0</sup>.
+- We provide all trained BAM [models](https://mailnwpueducn-my.sharepoint.com/:f:/g/personal/langchunbo_mail_nwpu_edu_cn/ElxMt3Mr9xBMr41BrOOE5JABEVnJ5f9-SVBRutEhpY3vxg?e=upF3mf) for performance evaluation. _Backbone: VGG16 & ResNet50; Dataset: PASCAL-5<sup>i</sup> & COCO-20<sup>i</sup>; Setting: 1-shot & 5-shot_.
 
 ### Scripts
 
