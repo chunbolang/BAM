@@ -23,6 +23,9 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
 **[May 23, 2022]**
 - We release all the trained **models** to facilitate validation.
 
+**[Jun 16, 2022]**
+- The generated **base annotations** are available.
+
 ## &#x1F527; Usage
 ### Dependencies
 
