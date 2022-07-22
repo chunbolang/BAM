@@ -132,8 +132,8 @@ If you find our work and this repository useful. Please consider giving a star :
 
 ```bibtex
 @InProceedings{lang2022bam,
-    author    = {Lang, Chunbo and Cheng, Gong and Tu, Binfei and Han, Junwei},
     title     = {Learning What Not To Segment: A New Perspective on Few-Shot Segmentation},
+    author    = {Lang, Chunbo and Cheng, Gong and Tu, Binfei and Han, Junwei},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     year      = {2022},
     pages     = {8057-8067}
