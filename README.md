@@ -16,8 +16,8 @@ This repo contains the code for our **CVPR 2022 Oral** [paper](http://arxiv.org/
 
 ## :sparkles: News
 
-**[April 5, 2022]**
-- The extended version of this work is accepted to **TPAMI**.
+**[April 5, 2023]**
+- The extended version of this work is accepted to **TPAMI2023**.
 
 **[Mar 2, 2022]**
 - BAM is accepted to **CVPR2022**.
