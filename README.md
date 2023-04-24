@@ -140,8 +140,17 @@ If you find our work and this repository useful. Please consider giving a star :
   title={Learning What Not To Segment: A New Perspective on Few-Shot Segmentation},
   author={Lang, Chunbo and Cheng, Gong and Tu, Binfei and Han, Junwei},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={8057--8067},
   year={2022},
-  pages={8057-8067}
+  }  
+  
+@article{lang2023bam,
+	title={Base and Meta: A New Perspective on Few-shot Segmentation},
+	author={Lang, Chunbo and Cheng, Gong and Tu, Binfei and Li, Chao and Han, Junwei},
+	journal={IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)},
+	pages={1--18},
+	year={2023},
+	doi={10.1109/TPAMI.2023.3265865},
 }
 ```
 
